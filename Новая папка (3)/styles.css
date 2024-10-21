@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f9fc; /* Нежный светлый фон */
+    font-family: 'Arial', sans-serif; /* Шрифт */
+}
+
+h1 {
+    color: #333; /* Темно-серый цвет текста */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Без границ */
+    border-radius: 5px; /* Скругленные углы */
+    padding: 10px 20px; /* Отступы кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+button:hover {
+    background-color: #45a049; /* Цвет кнопки при наведении */
+}
